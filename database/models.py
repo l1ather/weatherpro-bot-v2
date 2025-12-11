@@ -8,7 +8,7 @@ Base = declarative_base()
 
 class User(Base):
     """Модель пользователя"""
-    tablename = 'users'
+    __tablename__ = 'users'
     
     id = Column(Integer, primary_key=True)
     telegram_id = Column(Integer, unique=True, nullable=False, index=True)
@@ -26,7 +26,7 @@ class User(Base):
 
 class FavoriteCity(Base):
     """Избранные города пользователя"""
-    tablename = 'favorite_cities'
+    __tablename__ = 'favorite_cities'
     
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, nullable=False, index=True)
@@ -40,7 +40,7 @@ class FavoriteCity(Base):
 
 class WeatherRequest(Base):
     """История запросов погоды"""
-    tablename = 'weather_requests'
+    __tablename__ = 'weather_requests'
     
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, nullable=False, index=True)
@@ -55,7 +55,7 @@ class WeatherRequest(Base):
 
 class UserSettings(Base):
     """Настройки пользователя"""
-    tablename = 'user_settings'
+    __tablename__ = 'user_settings'
     
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, unique=True, nullable=False, index=True)

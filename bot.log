@@ -1,0 +1,1368 @@
+2025-12-12 00:42:01,307 - services.cache - ERROR - ❌ Ошибка подключения к Redis: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+2025-12-12 00:42:01,308 - __main__ - ERROR - ❌ Неожиданная ошибка: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\bot.py", line 111, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\WeatherPro Bot\bot.py", line 69, in main
+    dp.message.middleware(UserActivityMiddleware())
+                          ~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+2025-12-12 00:46:06,004 - services.cache - ERROR - ❌ Ошибка подключения к Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2025-12-12 00:46:06,006 - __main__ - ERROR - ❌ Неожиданная ошибка: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\bot.py", line 111, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\WeatherPro Bot\bot.py", line 69, in main
+    dp.message.middleware(UserActivityMiddleware())
+                          ~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+2025-12-12 01:12:53,162 - services.cache - ERROR - ❌ Ошибка подключения к Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2025-12-12 01:12:53,164 - __main__ - ERROR - ❌ Неожиданная ошибка: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\bot.py", line 111, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\WeatherPro Bot\bot.py", line 69, in main
+    dp.message.middleware(UserActivityMiddleware())
+                          ~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+2025-12-12 01:19:45,547 - services.cache - INFO - ✅ Redis подключен
+2025-12-12 01:19:45,549 - __main__ - ERROR - ❌ Неожиданная ошибка: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\bot.py", line 111, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\WeatherPro Bot\bot.py", line 69, in main
+    dp.message.middleware(UserActivityMiddleware())
+                          ~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: Can't instantiate abstract class UserActivityMiddleware without an implementation for abstract method '__call__'
+2025-12-12 01:27:38,761 - services.cache - INFO - ✅ Redis подключен
+2025-12-12 01:27:38,762 - __main__ - INFO - ==================================================
+2025-12-12 01:27:38,762 - __main__ - INFO - 🚀 Запуск WeatherPro Bot v2.0
+2025-12-12 01:27:38,762 - __main__ - INFO - ==================================================
+2025-12-12 01:27:38,762 - __main__ - INFO - 📦 Инициализация базы данных...
+2025-12-12 01:27:38,764 - __main__ - INFO - ✅ База данных готова
+2025-12-12 01:27:38,765 - __main__ - INFO - ✅ Бот запущен и готов к работе!
+2025-12-12 01:27:39,037 - __main__ - INFO - 🔗 Bot username: @macroxxx_bot
+2025-12-12 01:27:39,037 - __main__ - INFO - ==================================================
+2025-12-12 01:27:39,037 - __main__ - INFO - 🚀 Запуск WeatherPro Bot v2.0
+2025-12-12 01:27:39,037 - __main__ - INFO - ==================================================
+2025-12-12 01:27:39,038 - __main__ - INFO - 📦 Инициализация базы данных...
+2025-12-12 01:27:39,039 - __main__ - INFO - ✅ База данных готова
+2025-12-12 01:27:39,039 - aiogram.dispatcher - INFO - Start polling
+2025-12-12 01:27:39,103 - aiogram.dispatcher - INFO - Run polling for bot @macroxxx_bot id=8556899503 - 'macrox'
+2025-12-12 01:27:39,538 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /start
+2025-12-12 01:27:39,570 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /start
+2025-12-12 01:27:39,582 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /start
+2025-12-12 01:27:39,607 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import asyncio
+import logging
+from aiogram import 
+2025-12-12 01:27:39,618 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from datetime import datetime
+from sqlalchemy impo
+2025-12-12 01:27:39,629 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import List, Optional
+from sqlalchemy.
+2025-12-12 01:27:39,640 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: order_by(WeatherRequest.created_at.desc()).limit(l
+2025-12-12 01:27:39,650 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from aiogram import Router, F
+from 
+2025-12-12 01:27:39,661 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: reply_markup=get_city_actions_keyboard(city, is_fa
+2025-12-12 01:27:39,670 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: elif wind_speed < 5:
+            return "🌬 Легкий"
+2025-12-12 01:27:39,680 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import List
+from aiogram.types import 
+2025-12-12 01:27:39,690 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import List
+from aiogram.types import 
+2025-12-12 01:27:39,700 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from datetime import datetime
+from typing import D
+2025-12-12 01:27:39,710 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: callback_data="settings:back"
+            )
+      
+2025-12-12 01:27:39,720 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+import time
+from typing import Call
+2025-12-12 01:27:39,730 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import re
+from typing import Optional
+
+
+class City
+2025-12-12 01:27:39,740 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # Core dependencies
+aiogram==3.15.0
+aiohttp==3.11.
+2025-12-12 01:27:39,750 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: info(f"🔄 Погода обновлена: {weather['city']} для п
+2025-12-12 01:27:39,760 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: get_error_message(city)
+        await message.answ
+2025-12-12 01:27:39,769 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 0 м/с
+...
+
+## 🎮 Команды бота
+
+|Команда     |Описан
+2025-12-12 01:27:39,779 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: :param time_window: временное окно в секундах
+    
+2025-12-12 01:27:39,790 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # 🌤 WeatherPro Bot v2.0
+
+[![Python](https://img.sh
+2025-12-12 01:27:39,799 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: async def __call__(
+        self,
+        handler:
+2025-12-12 01:27:39,810 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: cache - 📦 Кеш HIT: weather:moscow
+2024-12-11 15:30
+2025-12-12 01:27:39,820 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # Часовой пояс для уведомлений
+NOTIFICATION_TIMEZO
+2025-12-12 01:27:39,830 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from aiogram import Router, F
+from 
+2025-12-12 01:27:39,840 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # ===========================================
+# We
+2025-12-12 01:27:39,851 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: SENTRY_DSN: str | None = Field(default=None, descr
+2025-12-12 01:27:39,861 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from datetime import datetime
+from 
+2025-12-12 01:27:39,871 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from aiogram import Router
+from aio
+2025-12-12 01:27:39,882 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import Callable, Dict, Any, Awaitable
+
+2025-12-12 01:27:39,895 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from aiogram.types import ReplyKeyboardMarkup, Key
+2025-12-12 01:27:39,904 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import json
+import logging
+from typing import Any,
+2025-12-12 01:27:39,914 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from typing import Optional
+import 
+2025-12-12 01:27:39,924 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 'humidity': data['main']['humidity'],
+            
+2025-12-12 01:27:40,003 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import json
+import logging
+from typing import Any,
+2025-12-12 01:27:40,012 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # Environment
+.env
+.env.local
+.env.*.local
+
+# Pyth
+2025-12-12 01:27:40,022 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,032 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: (.venv) PS C:\WeatherPro Bot> python .\config.py
+C
+2025-12-12 01:27:40,041 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: version: '3.8'
+
+services:
+  # Telegram Bot
+  bot:
+
+2025-12-12 01:27:40,051 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # ===========================================
+# We
+2025-12-12 01:27:40,060 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: https://github.com/l1ather/weatherpro-bot-v2
+2025-12-12 01:27:40,070 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: SENTRY_DSN: str | None = Field(default=None, descr
+2025-12-12 01:27:40,080 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: FROM python:3.11-slim
+
+WORKDIR /app
+
+# Установка з
+2025-12-12 01:27:40,090 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: (.venv) PS C:\WeatherPro Bot> git push -u origin m
+2025-12-12 01:27:40,100 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,110 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,119 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # config.py (пример)
+from pydantic_settings import
+2025-12-12 01:27:40,129 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # Часовой пояс для уведомлений
+NOTIFICATION_TIMEZO
+2025-12-12 01:27:40,139 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,149 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,159 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,169 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import List
+from pydantic_settings imp
+2025-12-12 01:27:40,179 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: docker : Имя "docker" не распознано как имя команд
+2025-12-12 01:27:40,188 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Traceback (most recent call last):
+  File "C:\Weat
+2025-12-12 01:27:40,198 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 2025-12-12 00:42:01,307 - services.cache - ERROR -
+2025-12-12 01:27:40,207 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import pytest
+from unittest.mock import AsyncMock,
+2025-12-12 01:27:40,216 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # Часовой пояс для уведомлений
+NOTIFICATION_TIMEZO
+2025-12-12 01:27:40,226 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: from typing import List
+from pydantic_settings imp
+2025-12-12 01:27:40,236 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 'weather': [{
+                'description': 'sunn
+2025-12-12 01:27:40,245 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # ===========================================
+# We
+2025-12-12 01:27:40,255 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+from aiogram import Router, F
+from 
+2025-12-12 01:27:40,266 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: python -c "from database.models import init_db; in
+2025-12-12 01:27:40,275 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: """Middleware для обновления информации о пользова
+2025-12-12 01:27:40,294 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+import time
+from typing import Call
+2025-12-12 01:27:40,304 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: # 🚀 Быстрый старт - WeatherPro Bot v2
+
+## 📋 Предва
+2025-12-12 01:27:40,315 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: import logging
+import time
+from typing import Call
+2025-12-12 01:27:40,327 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 2025-12-12 01:12:53,162 - services.cache - ERROR -
+2025-12-12 01:27:40,337 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: async def call(
+        self,
+        handler: Cal
+2025-12-12 01:27:40,551 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.761s
+2025-12-12 01:27:40,551 - aiogram.event - INFO - Update id=294252414 is handled. Duration 1022 ms by bot id=8556899503
+2025-12-12 01:27:40,562 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.955s
+2025-12-12 01:27:40,562 - aiogram.event - INFO - Update id=294252396 is handled. Duration 1037 ms by bot id=8556899503
+2025-12-12 01:27:40,576 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.006s
+2025-12-12 01:27:40,576 - aiogram.event - INFO - Update id=294252456 is handled. Duration 1005 ms by bot id=8556899503
+2025-12-12 01:27:40,603 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.021s
+2025-12-12 01:27:40,604 - aiogram.event - INFO - Update id=294252459 is handled. Duration 1022 ms by bot id=8556899503
+2025-12-12 01:27:40,618 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.808s
+2025-12-12 01:27:40,619 - aiogram.event - INFO - Update id=294252416 is handled. Duration 1089 ms by bot id=8556899503
+2025-12-12 01:27:40,657 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.118s
+2025-12-12 01:27:40,657 - aiogram.event - INFO - Update id=294252441 is handled. Duration 1119 ms by bot id=8556899503
+2025-12-12 01:27:40,659 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.939s
+2025-12-12 01:27:40,659 - aiogram.event - INFO - Update id=294252407 is handled. Duration 1132 ms by bot id=8556899503
+2025-12-12 01:27:40,688 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.675s
+2025-12-12 01:27:40,688 - aiogram.event - INFO - Update id=294252439 is handled. Duration 1150 ms by bot id=8556899503
+2025-12-12 01:27:40,718 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.027s
+2025-12-12 01:27:40,718 - aiogram.event - INFO - Update id=294252405 is handled. Duration 1191 ms by bot id=8556899503
+2025-12-12 01:27:40,720 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.900s
+2025-12-12 01:27:40,720 - aiogram.event - INFO - Update id=294252420 is handled. Duration 1190 ms by bot id=8556899503
+2025-12-12 01:27:40,748 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.067s
+2025-12-12 01:27:40,748 - aiogram.event - INFO - Update id=294252404 is handled. Duration 1221 ms by bot id=8556899503
+2025-12-12 01:27:40,758 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.087s
+2025-12-12 01:27:40,758 - aiogram.event - INFO - Update id=294252398 is handled. Duration 1233 ms by bot id=8556899503
+2025-12-12 01:27:40,783 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.123s
+2025-12-12 01:27:40,784 - aiogram.event - INFO - Update id=294252403 is handled. Duration 1257 ms by bot id=8556899503
+2025-12-12 01:27:40,801 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.061s
+2025-12-12 01:27:40,801 - aiogram.event - INFO - Update id=294252411 is handled. Duration 1273 ms by bot id=8556899503
+2025-12-12 01:27:40,825 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.065s
+2025-12-12 01:27:40,826 - aiogram.event - INFO - Update id=294252427 is handled. Duration 1294 ms by bot id=8556899503
+2025-12-12 01:27:40,844 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.194s
+2025-12-12 01:27:40,845 - aiogram.event - INFO - Update id=294252402 is handled. Duration 1318 ms by bot id=8556899503
+2025-12-12 01:27:40,846 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.116s
+2025-12-12 01:27:40,846 - aiogram.event - INFO - Update id=294252409 is handled. Duration 1318 ms by bot id=8556899503
+2025-12-12 01:27:40,872 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.122s
+2025-12-12 01:27:40,873 - aiogram.event - INFO - Update id=294252428 is handled. Duration 1341 ms by bot id=8556899503
+2025-12-12 01:27:40,914 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.010s
+2025-12-12 01:27:40,914 - aiogram.event - INFO - Update id=294252434 is handled. Duration 1377 ms by bot id=8556899503
+2025-12-12 01:27:40,915 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.991s
+2025-12-12 01:27:40,915 - aiogram.event - INFO - Update id=294252437 is handled. Duration 1378 ms by bot id=8556899503
+2025-12-12 01:27:40,956 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.316s
+2025-12-12 01:27:40,957 - aiogram.event - INFO - Update id=294252401 is handled. Duration 1430 ms by bot id=8556899503
+2025-12-12 01:27:40,957 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.127s
+2025-12-12 01:27:40,957 - aiogram.event - INFO - Update id=294252429 is handled. Duration 1426 ms by bot id=8556899503
+2025-12-12 01:27:40,988 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.809s
+2025-12-12 01:27:40,988 - aiogram.event - INFO - Update id=294252458 is handled. Duration 1407 ms by bot id=8556899503
+2025-12-12 01:27:41,009 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.210s
+2025-12-12 01:27:41,009 - aiogram.event - INFO - Update id=294252408 is handled. Duration 1482 ms by bot id=8556899503
+2025-12-12 01:27:41,010 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.096s
+2025-12-12 01:27:41,010 - aiogram.event - INFO - Update id=294252436 is handled. Duration 1473 ms by bot id=8556899503
+2025-12-12 01:27:41,052 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.283s
+2025-12-12 01:27:41,053 - aiogram.event - INFO - Update id=294252415 is handled. Duration 1524 ms by bot id=8556899503
+2025-12-12 01:27:41,053 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.993s
+2025-12-12 01:27:41,053 - aiogram.event - INFO - Update id=294252447 is handled. Duration 1485 ms by bot id=8556899503
+2025-12-12 01:27:41,094 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.254s
+2025-12-12 01:27:41,095 - aiogram.event - INFO - Update id=294252422 is handled. Duration 1564 ms by bot id=8556899503
+2025-12-12 01:27:41,095 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.244s
+2025-12-12 01:27:41,095 - aiogram.event - INFO - Update id=294252425 is handled. Duration 1564 ms by bot id=8556899503
+2025-12-12 01:27:41,136 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.357s
+2025-12-12 01:27:41,137 - aiogram.event - INFO - Update id=294252410 is handled. Duration 1608 ms by bot id=8556899503
+2025-12-12 01:27:41,137 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.930s
+2025-12-12 01:27:41,137 - aiogram.event - INFO - Update id=294252418 is handled. Duration 1608 ms by bot id=8556899503
+2025-12-12 01:27:48,188 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.569s
+2025-12-12 01:27:48,188 - aiogram.event - INFO - Update id=294252399 is handled. Duration 8662 ms by bot id=8556899503
+2025-12-12 01:27:48,193 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.312s
+2025-12-12 01:27:48,194 - aiogram.event - INFO - Update id=294252433 is handled. Duration 8657 ms by bot id=8556899503
+2025-12-12 01:27:48,219 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.129s
+2025-12-12 01:27:48,219 - aiogram.event - INFO - Update id=294252440 is handled. Duration 8681 ms by bot id=8556899503
+2025-12-12 01:27:48,237 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.205s
+2025-12-12 01:27:48,238 - aiogram.event - INFO - Update id=294252443 is handled. Duration 8670 ms by bot id=8556899503
+2025-12-12 01:27:48,261 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.632s
+2025-12-12 01:27:48,262 - aiogram.event - INFO - Update id=294252400 is handled. Duration 8735 ms by bot id=8556899503
+2025-12-12 01:27:48,283 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.583s
+2025-12-12 01:27:48,283 - aiogram.event - INFO - Update id=294252397 is handled. Duration 8758 ms by bot id=8556899503
+2025-12-12 01:27:48,299 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.296s
+2025-12-12 01:27:48,299 - aiogram.event - INFO - Update id=294252435 is handled. Duration 8762 ms by bot id=8556899503
+2025-12-12 01:27:48,325 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.195s
+2025-12-12 01:27:48,325 - aiogram.event - INFO - Update id=294252445 is handled. Duration 8757 ms by bot id=8556899503
+2025-12-12 01:27:48,339 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.239s
+2025-12-12 01:27:48,339 - aiogram.event - INFO - Update id=294252446 is handled. Duration 8770 ms by bot id=8556899503
+2025-12-12 01:27:48,366 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.505s
+2025-12-12 01:27:48,367 - aiogram.event - INFO - Update id=294252430 is handled. Duration 8835 ms by bot id=8556899503
+2025-12-12 01:27:48,388 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.679s
+2025-12-12 01:27:48,389 - aiogram.event - INFO - Update id=294252406 is handled. Duration 8861 ms by bot id=8556899503
+2025-12-12 01:27:48,406 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.535s
+2025-12-12 01:27:48,407 - aiogram.event - INFO - Update id=294252431 is handled. Duration 8870 ms by bot id=8556899503
+2025-12-12 01:27:48,415 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.218s
+2025-12-12 01:27:48,415 - aiogram.event - INFO - Update id=294252457 is handled. Duration 8834 ms by bot id=8556899503
+2025-12-12 01:27:48,459 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.233s
+2025-12-12 01:27:48,459 - aiogram.event - INFO - Update id=294252424 is handled. Duration 8929 ms by bot id=8556899503
+2025-12-12 01:27:48,489 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.467s
+2025-12-12 01:27:48,489 - aiogram.event - INFO - Update id=294252442 is handled. Duration 8921 ms by bot id=8556899503
+2025-12-12 01:27:48,490 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.439s
+2025-12-12 01:27:48,490 - aiogram.event - INFO - Update id=294252444 is handled. Duration 8922 ms by bot id=8556899503
+2025-12-12 01:27:48,512 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.343s
+2025-12-12 01:27:48,512 - aiogram.event - INFO - Update id=294252448 is handled. Duration 8943 ms by bot id=8556899503
+2025-12-12 01:27:48,526 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.416s
+2025-12-12 01:27:48,526 - aiogram.event - INFO - Update id=294252451 is handled. Duration 8957 ms by bot id=8556899503
+2025-12-12 01:27:48,544 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.502s
+2025-12-12 01:27:48,544 - aiogram.event - INFO - Update id=294252417 is handled. Duration 9014 ms by bot id=8556899503
+2025-12-12 01:27:48,561 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.373s
+2025-12-12 01:27:48,562 - aiogram.event - INFO - Update id=294252454 is handled. Duration 8991 ms by bot id=8556899503
+2025-12-12 01:27:48,585 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.445s
+2025-12-12 01:27:48,585 - aiogram.event - INFO - Update id=294252452 is handled. Duration 9015 ms by bot id=8556899503
+2025-12-12 01:27:48,601 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.385s
+2025-12-12 01:27:48,601 - aiogram.event - INFO - Update id=294252423 is handled. Duration 9070 ms by bot id=8556899503
+2025-12-12 01:27:48,629 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.510s
+2025-12-12 01:27:48,630 - aiogram.event - INFO - Update id=294252450 is handled. Duration 9060 ms by bot id=8556899503
+2025-12-12 01:27:48,659 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.764s
+2025-12-12 01:27:48,659 - aiogram.event - INFO - Update id=294252432 is handled. Duration 9123 ms by bot id=8556899503
+2025-12-12 01:27:48,660 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.501s
+2025-12-12 01:27:48,660 - aiogram.event - INFO - Update id=294252455 is handled. Duration 9090 ms by bot id=8556899503
+2025-12-12 01:27:48,675 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.595s
+2025-12-12 01:27:48,675 - aiogram.event - INFO - Update id=294252438 is handled. Duration 9138 ms by bot id=8556899503
+2025-12-12 01:27:48,698 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.453s
+2025-12-12 01:27:48,699 - aiogram.event - INFO - Update id=294252421 is handled. Duration 9169 ms by bot id=8556899503
+2025-12-12 01:27:48,722 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.486s
+2025-12-12 01:27:48,722 - aiogram.event - INFO - Update id=294252419 is handled. Duration 9193 ms by bot id=8556899503
+2025-12-12 01:27:48,741 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.466s
+2025-12-12 01:27:48,741 - aiogram.event - INFO - Update id=294252464 is handled. Duration 9146 ms by bot id=8556899503
+2025-12-12 01:27:48,764 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 8.499s
+2025-12-12 01:27:48,765 - aiogram.event - INFO - Update id=294252412 is handled. Duration 9237 ms by bot id=8556899503
+2025-12-12 01:27:48,782 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.527s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,788 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,837 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.510s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,840 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,849 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.511s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,852 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,860 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.556s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,864 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,871 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.801s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,875 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,883 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.568s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,886 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,893 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.744s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,896 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,902 - middlewares.logging - ERROR - ❌ MESSAGE error | User: 1233376136 | Time: 8.608s | Error: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:48,906 - handlers.errors - ERROR - Критическая ошибка: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+Traceback (most recent call last):
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 48, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\logging.py", line 158, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\middlewares\throttling.py", line 31, in __call__
+    await event.answer(
+        "⏱ Пожалуйста, подождите немного перед следующим запросом"
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\WeatherPro Bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 109, in check_response
+    raise TelegramRetryAfter(
+    ...<3 lines>...
+    )
+aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat 1233376136. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-12 01:27:55,936 - aiogram.event - INFO - Update id=294252426 is handled. Duration 16405 ms by bot id=8556899503
+2025-12-12 01:27:55,962 - aiogram.event - INFO - Update id=294252460 is handled. Duration 16368 ms by bot id=8556899503
+2025-12-12 01:27:55,990 - aiogram.event - INFO - Update id=294252413 is handled. Duration 16462 ms by bot id=8556899503
+2025-12-12 01:27:56,005 - aiogram.event - INFO - Update id=294252462 is handled. Duration 16410 ms by bot id=8556899503
+2025-12-12 01:27:56,031 - aiogram.event - INFO - Update id=294252449 is handled. Duration 16462 ms by bot id=8556899503
+2025-12-12 01:27:56,048 - aiogram.event - INFO - Update id=294252461 is handled. Duration 16453 ms by bot id=8556899503
+2025-12-12 01:27:56,073 - aiogram.event - INFO - Update id=294252453 is handled. Duration 16503 ms by bot id=8556899503
+2025-12-12 01:27:56,076 - aiogram.event - INFO - Update id=294252463 is handled. Duration 16481 ms by bot id=8556899503
+2025-12-12 01:28:07,855 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /start
+2025-12-12 01:28:07,964 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.109s
+2025-12-12 01:28:07,964 - aiogram.event - INFO - Update id=294252465 is handled. Duration 109 ms by bot id=8556899503
+2025-12-12 01:28:34,239 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 🌤 Погода сейчас
+2025-12-12 01:28:34,329 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.089s
+2025-12-12 01:28:34,329 - aiogram.event - INFO - Update id=294252466 is handled. Duration 90 ms by bot id=8556899503
+2025-12-12 01:28:53,770 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Москва
+2025-12-12 01:28:53,883 - services.cache - INFO - 🔍 Кеш MISS: weather:москва
+2025-12-12 01:28:54,131 - services.cache - INFO - 💾 Данные закешированы: weather:москва (TTL: 3600s)
+2025-12-12 01:28:54,299 - handlers.weather - INFO - ✅ Погода отправлена: Москва для пользователя 1
+2025-12-12 01:28:54,300 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.530s
+2025-12-12 01:28:54,300 - aiogram.event - INFO - Update id=294252467 is handled. Duration 531 ms by bot id=8556899503
+2025-12-12 01:29:04,993 - middlewares.logging - INFO - 📥 CALLBACK | User: @mostvaIuabIe (1233376136) | Text: forecast:Москва
+2025-12-12 01:29:05,081 - services.cache - INFO - 🔍 Кеш MISS: forecast:москва
+2025-12-12 01:29:05,355 - services.cache - INFO - 💾 Данные закешированы: forecast:москва (TTL: 7200s)
+2025-12-12 01:29:05,473 - middlewares.logging - INFO - ✅ CALLBACK processed | User: 1233376136 | Time: 0.480s
+2025-12-12 01:29:05,474 - aiogram.event - INFO - Update id=294252468 is handled. Duration 481 ms by bot id=8556899503
+2025-12-12 01:29:28,781 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /start
+2025-12-12 01:29:28,905 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.124s
+2025-12-12 01:29:28,906 - aiogram.event - INFO - Update id=294252469 is handled. Duration 124 ms by bot id=8556899503
+2025-12-12 01:29:35,441 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: ℹ️ Помощь
+2025-12-12 01:29:35,586 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.145s
+2025-12-12 01:29:35,586 - aiogram.event - INFO - Update id=294252470 is handled. Duration 146 ms by bot id=8556899503
+2025-12-12 01:29:49,174 - aiogram.event - INFO - Update id=294252471 is not handled. Duration 1 ms by bot id=8556899503
+2025-12-12 01:29:53,213 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: /favorites
+2025-12-12 01:29:53,343 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.130s
+2025-12-12 01:29:53,344 - aiogram.event - INFO - Update id=294252472 is handled. Duration 131 ms by bot id=8556899503
+2025-12-12 01:29:56,736 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: 🌤 Погода сейчас
+2025-12-12 01:29:56,849 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 0.113s
+2025-12-12 01:29:56,850 - aiogram.event - INFO - Update id=294252473 is handled. Duration 114 ms by bot id=8556899503
+2025-12-12 01:30:05,381 - middlewares.logging - INFO - 📥 MESSAGE | User: @mostvaIuabIe (1233376136) | Text: Новохопёрск
+2025-12-12 01:30:05,506 - services.cache - INFO - 🔍 Кеш MISS: weather:новохопёрск
+2025-12-12 01:30:06,312 - services.cache - INFO - 💾 Данные закешированы: weather:новохопёрск (TTL: 3600s)
+2025-12-12 01:30:06,526 - handlers.weather - INFO - ✅ Погода отправлена: Новохопёрск для пользователя 1
+2025-12-12 01:30:06,527 - middlewares.logging - INFO - ✅ MESSAGE processed | User: 1233376136 | Time: 1.146s
+2025-12-12 01:30:06,527 - aiogram.event - INFO - Update id=294252474 is handled. Duration 1146 ms by bot id=8556899503
+2025-12-12 01:30:16,930 - middlewares.logging - INFO - 📥 CALLBACK | User: @mostvaIuabIe (1233376136) | Text: forecast:Новохопёрск
+2025-12-12 01:30:17,028 - services.cache - INFO - 🔍 Кеш MISS: forecast:новохопёрск
+2025-12-12 01:30:17,945 - services.cache - INFO - 💾 Данные закешированы: forecast:новохопёрск (TTL: 7200s)
+2025-12-12 01:30:18,164 - middlewares.logging - INFO - ✅ CALLBACK processed | User: 1233376136 | Time: 1.234s
+2025-12-12 01:30:18,164 - aiogram.event - INFO - Update id=294252475 is handled. Duration 1234 ms by bot id=8556899503
+2025-12-12 01:30:39,184 - middlewares.logging - INFO - 📥 CALLBACK | User: @mostvaIuabIe (1233376136) | Text: forecast:Новохопёрск
+2025-12-12 01:30:39,290 - services.cache - INFO - 📦 Кеш HIT: forecast:новохопёрск
+2025-12-12 01:30:39,379 - handlers.forecast - ERROR - Ошибка получения прогноза: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-12-12 01:30:39,449 - middlewares.logging - INFO - ✅ CALLBACK processed | User: 1233376136 | Time: 0.265s
+2025-12-12 01:30:39,449 - aiogram.event - INFO - Update id=294252476 is handled. Duration 266 ms by bot id=8556899503
+2025-12-12 01:30:44,903 - middlewares.logging - INFO - 📥 CALLBACK | User: @mostvaIuabIe (1233376136) | Text: current:Новохопёрск
+2025-12-12 01:30:45,021 - services.cache - INFO - 🗑️ Удалено ключей: 1
+2025-12-12 01:30:45,023 - services.cache - INFO - 🔍 Кеш MISS: weather:новохопёрск
+2025-12-12 01:30:45,741 - services.cache - INFO - 💾 Данные закешированы: weather:новохопёрск (TTL: 3600s)
+2025-12-12 01:30:45,849 - handlers.weather - INFO - 🔄 Погода обновлена: Новохопёрск для пользователя 1
+2025-12-12 01:30:45,849 - middlewares.logging - INFO - ✅ CALLBACK processed | User: 1233376136 | Time: 0.946s
+2025-12-12 01:30:45,849 - aiogram.event - INFO - Update id=294252477 is handled. Duration 946 ms by bot id=8556899503

@@ -5,7 +5,10 @@ from pydantic import Field, validator
 
 class Settings(BaseSettings):
     """Настройки приложения WeatherPro Bot v2"""
-    
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8"
+    )
     # ===== Telegram =====
     BOT_TOKEN: str = Field(..., description="Токен Telegram бота")
     
