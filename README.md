@@ -439,7 +439,7 @@ MIT License - см. файл <LICENSE>
 
 - 📧 Email: [gusakovpavel4@gmail.com]
 - 💬 Telegram: [@justmacrox]
-- 🐙 GitHub: [l1ather/]
+- 🐙 GitHub: [https://github.com/l1ather]
 
 -----
 
