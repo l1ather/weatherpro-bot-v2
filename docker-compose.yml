@@ -1,0 +1,90 @@
+version: '3.8'
+
+services:
+  # Telegram Bot
+  bot:
+    build: .
+    container_name: weather_bot_v2
+    restart: unless-stopped
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_started
+      # Раскомментируйте если используете PostgreSQL
+      # postgres:
+      #   condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+      - ./weather_bot.db:/app/weather_bot.db  # SQLite база
+    networks:
+      - bot_network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Redis для кеширования
+  redis:
+    image: redis:7-alpine
+    container_name: weather_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    networks:
+      - bot_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # PostgreSQL (опционально, вместо SQLite)
+  # Раскомментируйте если хотите использовать PostgreSQL
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: weather_postgres
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_DB: weather_bot
+  #     POSTGRES_USER: weather_user
+  #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-your_secure_password}
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - bot_network
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U weather_user -d weather_bot"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+
+  # Redis Commander (опционально, для управления Redis)
+  # redis-commander:
+  #   image: rediscommander/redis-commander:latest
+  #   container_name: weather_redis_commander
+  #   restart: unless-stopped
+  #   environment:
+  #     REDIS_HOSTS: local:redis:6379
+  #   ports:
+  #     - "8081:8081"
+  #   networks:
+  #     - bot_network
+  #   depends_on:
+  #     - redis
+
+volumes:
+  redis_data:
+    driver: local
+  # postgres_data:
+  #   driver: local
+
+networks:
+  bot_network:
+    driver: bridge
